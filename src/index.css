@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.WriteNew{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.formdiv{
+  justify-content: center;
+  align-items: center;
+}
+
+.nameboxdiv{
+  padding-bottom: 25px;
+  border-radius: 50%;
+}
+
+.imgselectdiv{
+  padding-bottom: 25px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.imgselect{
+  font-size: large;
+}
+
+.namebox{
+  border: 2px solid lightgray;
+  font-size: 15px;
+  width: 600px;
+  height: 50px;
+}
+
+.deathselect{
+  padding-bottom: 25px;
+}
+
+.writeobituarybutton{
+  background-color: #00cc99;
+  width: 608px;
+  height: 60px;
+  border-radius: 5px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.writeobituarybutton:hover{
+  background-color: #2a2c2e;
+}
+
+.loadingobituarybutton{
+  background-color: #2a2c2e;
+  width: 608px;
+  height: 60px;
+  border-radius: 5px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.WriteNewobituarytext{
+  padding-bottom: 60px;
+}
+@font-face {
+  font-family: 'Satisfy';
+  src: url('./Satisfy/Satisfy-Regular.ttf') format('truetype');
+}
